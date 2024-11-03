@@ -107,7 +107,7 @@ const paginatedPages = computed(() => {
     pages.push(i);
   }
 
-  // Ajouter les ellipses si nécessaire
+  // Ajouter des ellipses 
   if (startPage > 1) {
     pages.unshift('...');
   }
