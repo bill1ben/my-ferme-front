@@ -109,12 +109,12 @@ export default {
         type: '',
         breed: '',
         age: {
-          gte: null,
-          lte: null
+          gte: 0,
+          lte: 0
         },
         priceTTC: {
-          gte: null,
-          lte: null
+          gte: 0,
+          lte: 0
         }
       },
       typesAndBreeds: {
